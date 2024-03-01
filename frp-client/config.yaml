@@ -19,20 +19,13 @@ arch:
   - armv7
   - i386
 options:
-  serverAddr: "example.com"
-  serverPort: 7000
-  authToken: "123456789"
-  webServerPort: 7500
-  webServerUser: "admin"
-  webServerPassword: "123456789"
-  customDomain: "example.com"
-  proxyName: "homeassistant"
+  server_addr: .slzn.fun
+  server_port: 17000
+  user: admin
+  meta_token: passwd
 schema:
-  serverAddr: str
-  serverPort: int
-  authToken: str
-  webServerPort: int
-  webServerUser: str
-  webServerPassword: str
-  customDomain: str
-  proxyName: str
+  server_addr: str
+  server_port: int
+  user: str
+  meta_token: int
+  
