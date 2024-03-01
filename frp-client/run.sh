@@ -14,9 +14,9 @@ cp $DEFAULT_CONFIG_PATH $CONFIG_PATH
 sed -i "s/server_addr = \"your_server_addr\"/server_addr = $(bashio::config 'server_addr')/" $CONFIG_PATH
 sed -i "s/server_port = 17000/server_port = $(bashio::config 'server_port')/" $CONFIG_PATH
 #sed -i "s/user = \"admin\"/user = \"$(bashio::config 'user')\"/" $CONFIG_PATH
-sed -i "s/user = \"admin\"/user = $(bashio::config 'user')/" $CONFIG_PATH
+#sed -i "s/user = \"admin\"/user = $(bashio::config 'user')/" $CONFIG_PATH
 #sed -i "s/meta_token = \"123456789\"/meta_token = \"$(bashio::config 'meta_token')\"/" $CONFIG_PATH
-sed -i "s/meta_token = \"passwd\"/meta_token = $(bashio::config 'meta_token')/" $CONFIG_PATH
+#sed -i "s/meta_token = \"passwd\"/meta_token = $(bashio::config 'meta_token')/" $CONFIG_PATH
 #sed -i "s/customDomains = \[\"your_domain\"\]/customDomains = [\"$(bashio::config 'customDomain')\"]/" $CONFIG_PATH
 #sed -i "s/name = \"your_proxy_name\"/name = \"$(bashio::config 'proxyName')\"/" $CONFIG_PATH
 
