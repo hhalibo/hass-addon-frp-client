@@ -19,10 +19,10 @@ arch:
   - armv7
   - i386
 options:
-  server_addr: .slzn.fun
-  server_port: 17000
-  user: admin123
-  meta_token: passwd123
+  Server_Addr: .slzn.fun
+  Server_Port: 17000
+  User: admin123
+  Meta_token: passwd123
 schema:
   server_addr: str
   server_port: int
