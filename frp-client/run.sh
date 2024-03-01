@@ -1,7 +1,7 @@
 #!/usr/bin/env bashio
 WAIT_PIDS=()
-CONFIG_PATH='/share/frpc.toml'
-DEFAULT_CONFIG_PATH='/frpc.toml'
+CONFIG_PATH='/share/frpc.ini'
+DEFAULT_CONFIG_PATH='/frpc.ini'
 
 function stop_frpc() {
     bashio::log.info "Shutdown frpc client"
